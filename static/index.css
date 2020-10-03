@@ -1,0 +1,48 @@
+@media (min-width: 800px) {
+  body {
+    background: url("https://cdn.londonandpartners.com/-/media/images/london/visit/campaigns/virtually-london/zoom/bigben-zoom-background.jpg?la=en");
+    background-size: 100%; }
+    body .login-form {
+      border: 2px solid black;
+      padding: 30px;
+      margin-top: 5%;
+      margin-left: 32.5%;
+      margin-right: 32.5%;
+      background: white; }
+      body .login-form input, body .login-form a {
+        margin-left: 25%;
+        margin-right: 25%;
+        height: 30px;
+        width: 50%; }
+      body .login-form button {
+        margin-left: 25%;
+        margin-right: 25%;
+        width: 50%; }
+      body .login-form h1 {
+        text-align: center;
+        color: blue; } }
+@media (max-width: 800px) {
+  body {
+    background: url("https://cdn.staticcrate.com/stock-hd/archives/categories/backgrounds_TOON_ANIME_NO_TEXT.jpg");
+    background-size: 100%; }
+    body .login-form {
+      border: 2px solid black;
+      padding: 30px;
+      margin-top: 10%;
+      margin-left: 5%;
+      margin-right: 5%;
+      background: white; }
+      body .login-form input, body .login-form a {
+        margin-left: 25%;
+        margin-right: 25%;
+        height: 30px;
+        width: 50%; }
+      body .login-form button {
+        margin-left: 25%;
+        margin-right: 25%;
+        width: 50%; }
+      body .login-form h1 {
+        text-align: center;
+        color: blue; } }
+
+/*# sourceMappingURL=index.css.map */

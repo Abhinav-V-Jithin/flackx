@@ -1,0 +1,70 @@
+@media (min-width: 800px)
+{
+    body
+    {
+      background: url('https://images.unsplash.com/photo-1511447333015-45b65e60f6d5?ixlib=rb-1.2.1&w=1000&q=80');
+      background-size: 100%;
+      .register-form
+      {
+        border: 2px solid black;
+        padding: 30px;
+        margin-top:2.5%;
+        margin-left: 32.5%;
+        margin-right: 32.5%;
+        background: white;
+        input, a
+        {
+          margin-left: 25%;
+          margin-right: 25%;
+          height: 30px;
+          width: 50%;
+        }
+        button
+        {
+          margin-left: 25%;
+          margin-right: 25%;
+          width:50%;
+        }
+        h1
+        {
+          text-align: center;
+          color: blue;
+        }
+      }
+    }
+}
+@media (max-width: 800px)
+{
+    body
+    {
+      background: url('https://cdn.staticcrate.com/stock-hd/archives/categories/backgrounds_TOON_ANIME_NO_TEXT.jpg');
+      background-size: 100%;
+      .register-form
+      {
+        border: 2px solid black;
+        padding: 30px;
+        margin-top:10%;
+        margin-left: 5%;
+        margin-right: 5%;
+        background: white;
+        input, a
+        {
+          margin-left: 25%;
+          margin-right: 25%;
+          height: 30px;
+          width: 50%;
+        }
+        button
+        {
+          margin-left: 25%;
+          margin-right: 25%;
+          width:50%;
+        }
+        h1
+        {
+          text-align: center;
+          color: blue;
+        }
+      }
+    }
+}
