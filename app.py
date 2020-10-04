@@ -174,7 +174,7 @@ def sendMessage(dataset):
     room_to_send = ''
     room_to_send2 = ''
     private_container.append({'from':from_send, 'to':to_send, 'message':message})
-    print(f" this is the private container: {private_container}")
+    print(" this is the private container: ", private_container)
     messages = []
 
 
