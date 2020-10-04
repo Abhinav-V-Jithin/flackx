@@ -41,7 +41,7 @@ def validate(datapack):
     username = datapack["username"]
     password = datapack["password"]
     index = 0
-    print(f"the list of registered users is: {registered_users}")
+    print("the list of registered users is:", registered_users)
     for user in registered_users:
         if user["username"] == username:
             if user["password"] == password:
@@ -197,7 +197,7 @@ def sendMessage(dataset):
 
     """Find the messages which are corresponding to the user who is sending the message or receiving the message..."""
 
-    print(f"The messages are {messages}")
+    print("The messages are ", messages)
     emit('private chat send', {'private':from_send, 'messages':messages}, room=room_to_send)
     emit('private chat send', {'private':to_send, 'messages':messages}, room=room_to_send2)
 
